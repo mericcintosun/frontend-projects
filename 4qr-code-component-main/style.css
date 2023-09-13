@@ -1,5 +1,5 @@
 :root {
-  --white:0, 0%, 100%;
+  --white: 0, 0%, 100%;
   --lightgray: 212, 45%, 89%;
   --grayishblue:220, 15%, 55%;
   --darkblue: 218, 44%, 22%;
@@ -11,8 +11,10 @@
 
   --fw-regular: 400;
   --fw-bold: 700;
-  --ff: 'Outfit' , sans-serif;
+  --ff: 'Outfit' sans-serif;
+
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +23,7 @@
   margin-top: 2%;
 }
 main {
-  background-color: hsl(var(--white));
+  background: hsl(var(--white));
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -37,13 +39,13 @@ main {
 }
 .content {
   background: hsl(var(--white));
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr;
-  gap: 1.5rem;
+  gap:1.5rem;
   margin-top: 2rem;
 }
 .title {
-  color: hsl(var(--darkblue));
+  color:hsl(var(--darkkblue));
   font-size: 1.8rem;
   background: none;
   font-weight: var(--fw-bold);
@@ -62,23 +64,30 @@ main {
   margin: 0 auto 3.5rem auto;
 }
 @media (max-width:600px) {
-main {
-  width: 60%;
+  main {
+    width: 60%;
+  }
+  .content {
+    margin-top: 0;
+    margin-top:1rem;
+    gap: .7rem;
+  }
+  .title {
+    font-size: .9rem;
+  }
+  .paragraph {
+    font-size: .65rem;
+    margin-bottom: 0;
+    margin-bottom: 1.5rem;
+  }
+  .qr-code {
+    margin: .6rem auto auto auto;
+  }
 }
-.content {
-  margin-top: 0;
-  margin-top: 1rem;
-  gap: .7rem;
-}
-.title {
-  font-size: .9rem;
-}
-.paragraph {
-  font-size: .65rem;
-  margin-bottom: 0;
-  margin-bottom: 1.5rem;
-}
-.qr-code {
-  margin: .6rem auto auto auto;
-}
-}
+
+
+
+
+
+
+

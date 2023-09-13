@@ -1,22 +1,22 @@
 :root {
   --primary-softblue: 215, 51%, 70%;
   --primary-cyan: 178, 100%, 50%;
-  --neutral-verydarkblue-main-bg:217, 54%, 11%;
-  --neutral-verydarkblue-card-bg:216, 50%, 16%;
-  --neutral-verydarkblue-line:215, 32%, 27%;
+  --neutral-verydarkblue-main-bg: 217, 54%, 11%;
+  --neutral-verydarkblue-card-bg: 216, 50%, 16%;
+  --neutral-verydarkblue-line: 215, 32%, 27%;
   --neutral-white: 0, 0%, 100%;
 
-  --primary-one: hsl(var(--primary-softblue));
-  --primary-two: hsl(var(--primary-cyan));
-  --neutral-one: hsl(var(--neutral-verydarkblue-main-bg));
-  --neutral-two: hsl(var(--neutral-verydarkblue-card-bg));
+  --primary-one:hsl(var(--primary-softblue));
+  --primary-two:hsl(var(--primary-cyan));
+  --neutral-one:hsl(var(--neutral-verydarkblue-main-bg));
+  --neutral-two:hsl(var(--neutral-verydarkblue-card-bg));
   --neutral-three:hsl(var(--neutral-verydarkblue-line));
   --neutral-four:hsl(var(--neutral-white));
 
-  --font-family:'Outfit';
-  --fw-tiny:300;
-  --fw-regular:400;
-  --fw-bold:600;
+  --font-family: 'Outfit';
+  --fw-tiny: 300;
+  --fw-regular: 400;
+  --fw-bold: 600;
 }
 * {
   font-family: var(--font-family);
@@ -25,7 +25,7 @@
   box-sizing: border-box;
 }
 body {
-  background: hsl(var(--neutral-verydarkblue-main-bg));
+  background-color: hsl(var(--neutral-verydarkblue-main-bg));
 }
 main {
   display: grid;
@@ -39,7 +39,7 @@ main {
   margin-top: 2%;
 }
 .nft {
-  width:85%;
+  width: 85%;
   margin-top: 6%;
   border-radius: 1rem;
 }
@@ -60,19 +60,19 @@ main {
 .paragraph {
   font-size: 18px;
   font-weight: var(--fw-tiny);
-  color:hsl(var(--primary-softblue)); 
+  color: hsl(var(--primary-softblue));
 }
 .eth,
 .day,
 .info {
   display: flex;
-  font-size:1rem;
+  font-size: 1rem;
 }
 .info {
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .eth {
-  color:hsl(var(--primary-cyan));
+  color: hsl(var(--primary-cyan));
 }
 .eth svg {
   margin-right: .6rem;
@@ -80,7 +80,6 @@ main {
 .info {
   color:hsl(var(--primary-softblue));
   border-bottom: 1px solid hsl(var(--neutral-verydarkblue-line));
-  padding-bottom: 2rem;
 }
 .day svg {
   margin-right: .6rem;
@@ -91,15 +90,12 @@ main {
   padding-bottom: 2rem;
 }
 .avatar-img {
-  width:35px;
+  width: 35px;
   border:1px solid white;
   border-radius: 100%;
   margin-right: 1rem;
 }
 .avatar-info {
-  color:hsl(var(--primary-softblue));
-}
-.avatar span {
   color:hsl(var(--neutral-white));
   cursor: pointer;
 }
