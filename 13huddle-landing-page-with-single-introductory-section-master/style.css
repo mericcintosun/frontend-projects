@@ -11,6 +11,8 @@
 
   --fw-regular: 400;
   --fw-bold: 600;
+
+  
 }
 *,
 *::before,
@@ -89,8 +91,8 @@ svg {
   fill:white;
   border: 1px solid white;
   border-radius: 1rem;
-  width: 30px;
-  height: 30px;
+  width: 1.85rem;
+  height: 1.85rem;
   padding: .3rem;
   margin: 0 .2rem;
 }
